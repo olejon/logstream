@@ -18,8 +18,7 @@ LogStreamer is very easy to set up.
 
 The server must serve a URL with JSON output in this format:
 
-```
-{
+<pre><code>{
 	"stream":
 	{
 		"time":"2014-01-01 12:00:00",
@@ -27,8 +26,7 @@ The server must serve a URL with JSON output in this format:
 		"second key":"second value",
 		"third key":"third value"
 	}
-}
-```
+}</code></pre>
 
 **Note:** You must serve the output as [JSONP](http://en.wikipedia.org/wiki/JSONP). [Click here](http://www.olejon.net/code/logstream/stream/php.txt) here to view the server side PHP code used for the demo.
 
@@ -40,15 +38,13 @@ If you want the fancy IP address information shown in the demo, all you have to 
 
 LogStreamer can be run directly from the cloud (also called my server). All you have to do is go to this URL:
 
-`http://www.olejon.net/code/logstream/app/?stream={URL}&interval={integer}&timer={boolean}`
+<pre><code>http://www.olejon.net/code/logstream/app/?stream={URL}&interval={integer}&timer={boolean}</code></pre>
 
 As you can see, you must provide three arguments:
 
-```
-stream = URL encoded URL to the JSON output (do not include "callback" argument for JSONP)
+<pre><code>stream = URL encoded URL to the JSON output (do not include "callback" argument for JSONP)
 interval = How often to refresh in seconds
-timer = Set to "true" to show the timer, "false" otherwise
-```
+timer = Set to "true" to show the timer, "false" otherwise</code></pre>
 
 Example:
 
