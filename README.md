@@ -12,7 +12,7 @@ The demo checks a JSON file for changes every six seconds (the interval can be c
 
 ### How to set up
 
-LogStreamer is very easy to set up.
+LogStream is very easy to set up.
 
 #### On the server side
 
@@ -36,7 +36,7 @@ If you want the fancy IP address information shown in the demo, all you have to 
 
 #### On the client side
 
-LogStreamer can be run directly from the cloud (also called my server). All you have to do is go to this URL:
+LogStream can be run directly from the cloud (also called my server). All you have to do is go to this URL:
 
 <pre><code>http://www.olejon.net/code/logstream/app/?stream={URL}&interval={integer}&timer={boolean}</code></pre>
 
