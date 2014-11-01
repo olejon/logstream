@@ -125,7 +125,9 @@ function getStream()
 
 	if(config.timer) timer.css('visibility', 'visible').css('transition', '').css('-webkit-transition', '').css('-moz-transition', '').css('-ms-transition', '').css('width', '');
 
-	$.getJSON(config.stream+'&callback=?', function(data)
+	var separator = (config.stream.match(/\/\?[^\/]+/)) ? '&' : '?';
+
+	$.getJSON(config.stream+separator+'callback=?', function(data)
 	{
 		stream_is_updating = false;
 
