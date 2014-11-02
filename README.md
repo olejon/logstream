@@ -6,7 +6,7 @@ Personally I use it fullscreen on a retired iPad to visualize logs that shows th
 
 ### Demo
 
-* [Click here to see a demo](http://www.olejon.net/code/logstream/app/?stream=http%3A%2F%2Fwww.olejon.net%2Fcode%2Flogstream%2Fstream%2F&interval=6&timer=true)
+* [Click here to see a demo](http://www.olejon.net/code/logstream/?page=demo)
 
 The demo checks a JSON file for changes every six seconds (the interval can be configured). The data is only for the demo. In a real life scenario there won't necessarily be new data every six seconds. The animation is only shown when there's new data.
 
