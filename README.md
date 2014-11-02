@@ -1,6 +1,6 @@
 ## LogStream
 
-A visually pleasing way to show log entries in "real time". It's not meant to be a way to look through logs, but to show new log entries in a nice way. It's not suitable for logs where new entries are added more often than about every five seconds.
+A visually pleasing way to view log entries in "real time". It's not meant to be a way to look through logs, but to show new log entries in a nice way. It's not suitable for logs where new entries are added more often than about every five seconds.
 
 Personally I use it fullscreen on a retired iPad to visualize logs that shows the usage of my apps.
 
@@ -51,3 +51,7 @@ Example:
 <pre><code>http://www.olejon.net/code/logstream/app/?stream=http%3A%2F%2Fwww.olejon.net%2Fcode%2Flogstream%2Fstream%2F&interval=6&timer=true</code></pre>
 
 This is the URL to the demo, so the demo gets its JSON data from `http://www.olejon.net/code/logstream/stream/`. 
+
+### Planned features
+
+I am planning to implement support for WebSockets some time in the future.
