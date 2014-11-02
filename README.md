@@ -2,6 +2,8 @@
 
 A visually pleasing way to view log entries in "real time". It's not meant to be a way to look through logs, but to show new log entries in a nice way. It's not suitable for logs where new entries are added more often than about every five seconds.
 
+LogStream is inspired by Google's Material Design, and adapts to different screen sizes.
+
 Personally I use it fullscreen on a retired iPad to visualize logs that shows the usage of my apps.
 
 ### Demo
