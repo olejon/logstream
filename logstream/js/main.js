@@ -87,6 +87,7 @@ $(window).load(function()
 	stream_timeout = null;
 	stream_is_updating = false;
 	stream_last_time = 0;
+	stream_last_refresh_time = getCurrentTime();
 
 	setFabPosition();
 
@@ -121,9 +122,10 @@ function getStream()
 	}, config.interval * 1000);
 
 	var card = $('div#card');
-	var timer = $('hr#timer');
+	var timer = $('div#timer');
+	var fab = $('a#fab');
 
-	if(config.timer) timer.css('visibility', 'visible').css('transition', '').css('-webkit-transition', '').css('-moz-transition', '').css('-ms-transition', '').css('width', '');
+	if(config.timer) timer.css('visibility', 'visible').css('transition', '').css('-webkit-transition', '').css('-moz-transition', '').css('-ms-transition', '').removeClass('timer');
 
 	var separator = (config.stream.match(/\?[^\/]+/)) ? '&' : '?';
 
@@ -142,14 +144,14 @@ function getStream()
 
 		setTimeout(function()
 		{
-			if(config.timer) timer.css('transition', 'width '+config.interval+'s linear').css('-webkit-transition', 'width '+config.interval+'s linear').css('-moz-transition', 'width '+config.interval+'s linear').css('-ms-transition', 'width '+config.interval+'s linear').css('width', '0');
+			if(config.timer) timer.css('transition', 'transform '+config.interval+'s linear').css('-webkit-transition', '-webkit-transform '+config.interval+'s linear').css('-moz-transition', '-moz-transform '+config.interval+'s linear').css('-ms-transition', '-ms-transform '+config.interval+'s linear').addClass('timer');
 		}, 25);
 
 		var stream = data.stream;
 
 		if(stream.time == stream_last_time) return;
 
-		var html = '<h1>'+stream.time+'</h1><div>';
+		var html = '<div><div>'+stream.time+'</div><div></div></div><div>';
 		var ip = null;
 
 		for (var key in stream)
@@ -176,7 +178,7 @@ function getStream()
 			{
 				lookupIpAddress(ip);
 
-				$('a#fab').addClass('pop');
+				fab.addClass('pop');
 			});
 		}
 		else
@@ -191,7 +193,25 @@ function getStream()
 					{
 						lookupIpAddress(ip);
 
-						$('a#fab').addClass('pop');
+						fab.addClass('pop');
+
+						var current_time = getCurrentTime();
+
+						if(current_time > stream_last_refresh_time)
+						{
+							var timeago = parseInt((current_time - stream_last_refresh_time) / 1000);
+							var unit = (timeago == 1) ? 'second' : 'seconds';
+
+							if(timeago >= 60)
+							{
+								timeago = Math.round(timeago / 60);
+								unit = (timeago == 1) ? 'minute' : 'minutes';
+							}
+
+							$('div#card > div:first-child > div:last-child').html(timeago+' '+unit+' ago');
+						}
+
+						stream_last_refresh_time = current_time;
 					});
 				}, 25);
 			});
@@ -204,7 +224,7 @@ function getStream()
 function playPauseStream()
 {
 	var fab = $('a#fab');
-	var timer = $('hr#timer');
+	var timer = $('div#timer');
 
 	if(fab.hasClass('play'))
 	{
@@ -220,7 +240,7 @@ function playPauseStream()
 
 		fab.removeClass('pause').addClass('play');
 
-		if(config.timer) timer.css('transition', '').css('-webkit-transition', '').css('-moz-transition', '').css('-ms-transition', '').css('width', '');
+		if(config.timer) timer.css('transition', '').css('-webkit-transition', '').css('-moz-transition', '').css('-ms-transition', '').removeClass('timer');
 
 		clearTimeout(stream_timeout);
 	}
@@ -266,4 +286,9 @@ function setFabPosition()
 
 		fab.css('right', position+'px');
 	}
+}
+
+function getCurrentTime()
+{
+	return new Date().getTime();
 }
