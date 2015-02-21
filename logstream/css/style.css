@@ -37,54 +37,6 @@ along with LogStream.  If not, see <http://www.gnu.org/licenses/>.
         src: url("../fonts/roboto-medium.ttf");
 }
 
-@font-face
-{
-        font-family: "roboto";
-        font-style: italic;
-        font-weight: 600;
-        src: url("../fonts/roboto-medium-italic.ttf");
-}
-
-@font-face
-{
-        font-family: "roboto";
-        font-style: normal;
-        font-weight: bold;
-        src: url("../fonts/roboto-bold.ttf");
-}
-
-@font-face
-{
-        font-family: "roboto";
-        font-style: italic;
-        font-weight: normal;
-        src: url("../fonts/roboto-italic.ttf");
-}
-
-@font-face
-{
-        font-family: "roboto";
-        font-style: italic;
-        font-weight: bold;
-        src: url("../fonts/roboto-italic-bold.ttf");
-}
-
-@font-face
-{
-        font-family: "roboto";
-        font-style: normal;
-        font-weight: 200;
-        src: url("../fonts/roboto-light.ttf");
-}
-
-@font-face
-{
-        font-family: "roboto";
-        font-style: italic;
-        font-weight: 200;
-        src: url("../fonts/roboto-light-italic.ttf");
-}
-
 /* Body */
 
 body
@@ -92,7 +44,7 @@ body
 	cursor: default;
 	margin: 0;
 	padding: 0;
-	background-color: #f5f5f5;
+	background-color: #e0e0e0;
 	font-family: "roboto", "helvetica neue", "helvetica", "arial", "sans-serif";
 	overflow: hidden;
 	touch-callout: none;
@@ -144,7 +96,6 @@ div#error > div:first-child
 {
 	padding: 0 0 16px 0;
 	font-size: 18px;
-	font-weight: 200;
 	color: #ff5177;
 	line-height: 1.5;
 }
@@ -224,7 +175,7 @@ div#card > div:first-child > div
 	display: table-cell;
 	vertical-align: middle;
 	padding: 16px 16px 0 16px;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 600;
 	color: #00bcd4;
 }
@@ -263,8 +214,7 @@ div#ip > div
 div#ip > div:first-child > div
 {
 	padding: 0 4px 0 0;
-	font-size: 12px;
-	font-weight: 200;
+	font-size: 14px;
 	line-height: initial;
 	overflow: hidden;
 	white-space: nowrap;
@@ -285,7 +235,7 @@ h2
 {
 	margin: 0;
 	padding: 0 0 4px 0;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 600;	
 }
 
@@ -295,8 +245,7 @@ p
 {
 	margin: 0;
 	padding: 0;
-	font-size: 16px;
-	font-weight: 200;
+	font-size: 18px;
 }
 
 /* Links */
