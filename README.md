@@ -42,7 +42,7 @@ LogStream can be run directly from the cloud (also called my server). All you ha
 
 <pre><code>http://www.olejon.net/code/logstream/app/?stream={URL}&interval={integer}</code></pre>
 
-As you can see, you must provide three arguments:
+As you can see, you must provide two arguments:
 
 <pre><code>stream = URL encoded URL to the JSON output (do not include "callback" argument for JSONP)
 interval = How often to refresh in seconds</code></pre>
