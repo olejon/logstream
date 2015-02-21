@@ -40,13 +40,12 @@ If you want the fancy IP address information shown in the demo, all you have to 
 
 LogStream can be run directly from the cloud (also called my server). All you have to do is go to this URL:
 
-<pre><code>http://www.olejon.net/code/logstream/app/?stream={URL}&interval={integer}&timer={boolean}</code></pre>
+<pre><code>http://www.olejon.net/code/logstream/app/?stream={URL}&interval={integer}</code></pre>
 
 As you can see, you must provide three arguments:
 
 <pre><code>stream = URL encoded URL to the JSON output (do not include "callback" argument for JSONP)
-interval = How often to refresh in seconds
-timer = Set to "true" to show the timer, "false" otherwise</code></pre>
+interval = How often to refresh in seconds</code></pre>
 
 Example:
 
