@@ -44,8 +44,9 @@ LogStream can be run directly from the cloud (also called my server). All you ha
 
 As you can see, you must provide two arguments:
 
-<pre><code>stream = URL encoded URL to the JSON output (do not include "callback" argument for JSONP)
-interval = How often to refresh in seconds</code></pre>
+**stream:** URL encoded URL to the JSON output. *Do not include "callback" argument for JSONP*
+
+**interval:** How often to refresh in seconds</code></pre>
 
 Example:
 
