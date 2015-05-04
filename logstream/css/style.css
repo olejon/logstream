@@ -1,6 +1,5 @@
 /*
 
-
 Copyright 2015 Ole Jon Bjørkum
 
 This file is part of LogStream.
