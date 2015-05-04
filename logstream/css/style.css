@@ -1,6 +1,6 @@
 /*
 
-Copyright 2014 Ole Jon Bjørkum
+Copyright 2015 Ole Jon Bjørkum
 
 This file is part of LogStream.
 
@@ -23,18 +23,18 @@ along with LogStream.  If not, see <http://www.gnu.org/licenses/>.
 
 @font-face
 {
-        font-family: "roboto";
-        font-style: normal;
-        font-weight: normal;
-        src: url("../fonts/roboto.ttf");
+	font-family: "roboto";
+	font-style: normal;
+	font-weight: normal;
+	src: url("../fonts/roboto.ttf");
 }
 
 @font-face
 {
-        font-family: "roboto";
-        font-style: normal;
-        font-weight: 600;
-        src: url("../fonts/roboto-medium.ttf");
+	font-family: "roboto";
+	font-style: normal;
+	font-weight: 600;
+	src: url("../fonts/roboto-medium.ttf");
 }
 
 /* Body */
@@ -166,23 +166,10 @@ div#card
 
 div#card > div:first-child
 {
-	display: table;
-	width: 100%;
-}
-
-div#card > div:first-child > div
-{
-	display: table-cell;
-	vertical-align: middle;
 	padding: 16px 16px 0 16px;
 	font-size: 16px;
 	font-weight: 600;
 	color: #00bcd4;
-}
-
-div#card > div:first-child > div:last-child
-{
-	text-align: right;
 }
 
 div#card > div:last-child > div
@@ -231,7 +218,7 @@ div#ip > div:last-child
 
 /* Titles */
 
-h2
+h1
 {
 	margin: 0;
 	padding: 0 0 4px 0;

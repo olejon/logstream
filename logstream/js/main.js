@@ -1,6 +1,6 @@
 /*
 
-Copyright 2014 Ole Jon Bjørkum
+Copyright 2015 Ole Jon Bjørkum
 
 This file is part of LogStream.
 
@@ -80,7 +80,6 @@ $(window).load(function()
 	stream_timeout = null;
 	stream_is_updating = false;
 	stream_last_time = 0;
-	stream_last_refresh_time = getCurrentTime();
 
 	setFabPosition();
 
@@ -134,23 +133,23 @@ function getStream()
 
 		if(stream.time == stream_last_time) return;
 
-		var html = '<div><div>'+stream.time+'</div><div></div></div><div>';
+		var html = '<div>'+stream.time+'</div><div>';
 		var ip = null;
 
-		for (var key in stream)
+		for(var key in stream)
 		{
 			if(key == 'time') continue;
 
 			var value = stream[key];
 			var append = '';
 
-			if(key == 'ip' && value.match(/^\d+\.\d+\.\d+\.\d+$/))
+			if(key == 'ip' && value.match(/^\d+\.\d+\.\d+\.\d+$/) || key == 'ip' && value.match(/^[\w:]+$/))
 			{
 				ip = value;
 				append = '<div id="ip"><div><div>Location: <span id="location"></span></div><div>ISP: <span id="isp"></span></div></div><div></div></div>';
 			}
 
-			html += '<div><h2>'+key.toUpperCase()+'</h2><p>'+value+'</p>'+append+'</div>';
+			html += '<div><h1>'+key.toUpperCase()+'</h1><p>'+value+'</p>'+append+'</div>';
 		}
 
 		html += '</div>';
@@ -177,24 +176,6 @@ function getStream()
 						lookupIpAddress(ip);
 
 						fab.addClass('pop');
-
-						var current_time = getCurrentTime();
-
-						if(current_time > stream_last_refresh_time)
-						{
-							var timeago = parseInt((current_time - stream_last_refresh_time) / 1000);
-							var unit = (timeago == 1) ? 'second' : 'seconds';
-
-							if(timeago >= 60)
-							{
-								timeago = Math.round(timeago / 60);
-								unit = (timeago == 1) ? 'minute' : 'minutes';
-							}
-
-							$('div#card > div:first-child > div:last-child').html(timeago+' '+unit+' ago');
-						}
-
-						stream_last_refresh_time = current_time;
 					});
 				}, 25);
 			});
