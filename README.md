@@ -8,7 +8,7 @@ Personally I use it fullscreen on a retired iPad to visualize logs that show the
 
 ### Demo
 
-* [Click here to see a demo](http://www.olejon.net/code/logstream/?page=demo) (*you may have to disable/whitelist any AdBlock extension for the geolocation to work*)
+* [Click here to see a demo](https://www.olejon.net/code/logstream/?page=demo) (*you may have to disable/whitelist any AdBlock extension for the geolocation to work*)
 
 The demo checks a JSON file for changes every six seconds (the interval can be configured). The data is only for the demo. In a real life scenario there won't necessarily be new data every six seconds. The animation is only shown when there's new data.
 
