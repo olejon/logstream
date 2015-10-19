@@ -1,21 +1,19 @@
 /*
 
-Copyright 2015 Ole Jon Bjørkum
+Copyright (C) 2015 Ole Jon Bjørkum
 
-This file is part of LogStream.
-
-LogStream is free software: you can redistribute it and/or modify
+This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-LogStream is distributed in the hope that it will be useful,
+This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with LogStream.  If not, see <http://www.gnu.org/licenses/>.
+along with this program. If not, see http://www.gnu.org/licenses/.
 
 */
 
@@ -44,8 +42,8 @@ body
 	cursor: default;
 	margin: 0;
 	padding: 0;
-	background-color: #e0e0e0;
-	font-family: "roboto", "helvetica neue", "helvetica", "arial", "sans-serif";
+	background-color: #eee;
+	font-family: "roboto", "helvetica", "arial", "sans-serif";
 	overflow: hidden;
 	touch-callout: none;
 	-webkit-touch-callout: none;
@@ -62,7 +60,7 @@ body
 div#header
 {
 	height: 160px;
-	background-color: #00bcd4;
+	background-color: #1565c0;
 }
 
 div#footer
@@ -96,7 +94,7 @@ div#error > div:first-child
 {
 	padding: 0 0 16px 0;
 	font-size: 18px;
-	color: #ff5177;
+	color: #e91e63;
 	line-height: 1.5;
 }
 
@@ -169,7 +167,7 @@ div#card > div:first-child
 	padding: 16px 16px 0 16px;
 	font-size: 16px;
 	font-weight: 600;
-	color: #00bcd4;
+	color: #e91e63;
 }
 
 div#card > div:last-child > div
@@ -239,7 +237,7 @@ p
 
 a
 {
-	color: #00bcd4;
+	color: #e91e63;
 	text-decoration: none;
 }
 
@@ -257,7 +255,7 @@ a#fab
 	z-index: 30;
 	width: 56px;
 	height: 56px;
-	background-color: #eeff41;
+	background-color: #e91e63;
 	background-size: 24px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -281,30 +279,30 @@ a#fab
 
 a#fab:active
 {
-	background-color: #e0e0e0;
+	background-color: #ff4081;
 }
 
 /* Images */
 
-.pause { background-image: url("../img/pause-grey-24.png"); }
-.play { background-image: url("../img/play-grey-24.png"); }
+.pause { background-image: url("../img/pause-24.png?13"); }
+.play { background-image: url("../img/play-24.png?13"); }
 
 @media screen and (min-resolution: 2dppx), screen and (-webkit-min-device-pixel-ratio: 2)
 {
-	.pause { background-image: url("../img/pause-grey-24-2x.png"); }
-	.play { background-image: url("../img/play-grey-24-2x.png"); }
+	.pause { background-image: url("../img/pause-24-2x.png?13"); }
+	.play { background-image: url("../img/play-24-2x.png?13"); }
 }
 
 @media screen and (min-resolution: 3dppx), screen and (-webkit-min-device-pixel-ratio: 3)
 {
-	.pause { background-image: url("../img/pause-grey-24-3x.png"); }
-	.play { background-image: url("../img/play-grey-24-3x.png"); }
+	.pause { background-image: url("../img/pause-24-3x.png?13"); }
+	.play { background-image: url("../img/play-24-3x.png?13"); }
 }
 
 @media screen and (min-resolution: 4dppx), screen and (-webkit-min-device-pixel-ratio: 4)
 {
-	.pause { background-image: url("../img/pause-grey-24-4x.png"); }
-	.play { background-image: url("../img/play-grey-24-4x.png"); }
+	.pause { background-image: url("../img/pause-24-4x.png?13"); }
+	.play { background-image: url("../img/play-24-4x.png?13"); }
 }
 
 /* Animations */
