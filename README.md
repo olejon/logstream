@@ -52,7 +52,3 @@ Example:
 <pre><code>http://www.olejon.net/code/logstream/app/?stream=http%3A%2F%2Fwww.olejon.net%2Fcode%2Flogstream%2Fstream%2F&interval=6</code></pre>
 
 This is the URL to the demo, so the demo gets its JSON data from `http://www.olejon.net/code/logstream/stream/`. 
-
-### Planned features
-
-I am planning to implement support for WebSockets some time in the future.
