@@ -284,25 +284,25 @@ a#fab:active
 
 /* Images */
 
-.pause { background-image: url("../img/pause-24.png?15"); }
-.play { background-image: url("../img/play-24.png?15"); }
+.pause { background-image: url("../img/pause-24.png?16"); }
+.play { background-image: url("../img/play-24.png?16"); }
 
 @media screen and (min-resolution: 2dppx), screen and (-webkit-min-device-pixel-ratio: 2)
 {
-	.pause { background-image: url("../img/pause-24-2x.png?15"); }
-	.play { background-image: url("../img/play-24-2x.png?15"); }
+	.pause { background-image: url("../img/pause-24-2x.png?16"); }
+	.play { background-image: url("../img/play-24-2x.png?16"); }
 }
 
 @media screen and (min-resolution: 3dppx), screen and (-webkit-min-device-pixel-ratio: 3)
 {
-	.pause { background-image: url("../img/pause-24-3x.png?15"); }
-	.play { background-image: url("../img/play-24-3x.png?15"); }
+	.pause { background-image: url("../img/pause-24-3x.png?16"); }
+	.play { background-image: url("../img/play-24-3x.png?16"); }
 }
 
 @media screen and (min-resolution: 4dppx), screen and (-webkit-min-device-pixel-ratio: 4)
 {
-	.pause { background-image: url("../img/pause-24-4x.png?15"); }
-	.play { background-image: url("../img/play-24-4x.png?15"); }
+	.pause { background-image: url("../img/pause-24-4x.png?16"); }
+	.play { background-image: url("../img/play-24-4x.png?16"); }
 }
 
 /* Animations */
