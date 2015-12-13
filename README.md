@@ -36,8 +36,6 @@ The only required key is `time`. You can use whatever format you like, but it sh
 
 ---
 
-**Note:** Telize has shut down their public GeoIP API, so this will not work with the current code.
-
 If you want the fancy IP address information shown in the demo, all you have to do is include a key called `ip` with a valid IP address as value.
 
 ---
