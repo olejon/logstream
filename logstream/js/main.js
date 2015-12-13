@@ -1,6 +1,6 @@
 /*
 
-Copyright (C) 2015 Ole Jon Bjørkum
+Copyright 2015 Ole Jon Bjørkum
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -209,7 +209,7 @@ function lookupIpAddress(ip)
 
 	div.removeClass('fadein');
 
-	$.getJSON('https://www.telize.com/geoip/'+ip+'?callback=?', function(data)
+	$.getJSON('http://www.olejon.net/code/logstream/api/1/geoip/?ip='+ip+'&callback=?', function(data)
 	{
 		var country = (typeof data.country == 'undefined' || data.country == '') ? 'Unknown' : data.country;
 		var country_code = (typeof data.country_code == 'undefined' || data.country_code == '') ? 'Unknown' : data.country_code.toLowerCase();

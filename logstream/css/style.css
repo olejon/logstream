@@ -1,6 +1,6 @@
 /*
 
-Copyright (C) 2015 Ole Jon Bjørkum
+Copyright 2015 Ole Jon Bjørkum
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -284,25 +284,25 @@ a#fab:active
 
 /* Images */
 
-.pause { background-image: url("../img/pause-24.png?14"); }
-.play { background-image: url("../img/play-24.png?14"); }
+.pause { background-image: url("../img/pause-24.png?15"); }
+.play { background-image: url("../img/play-24.png?15"); }
 
 @media screen and (min-resolution: 2dppx), screen and (-webkit-min-device-pixel-ratio: 2)
 {
-	.pause { background-image: url("../img/pause-24-2x.png?14"); }
-	.play { background-image: url("../img/play-24-2x.png?14"); }
+	.pause { background-image: url("../img/pause-24-2x.png?15"); }
+	.play { background-image: url("../img/play-24-2x.png?15"); }
 }
 
 @media screen and (min-resolution: 3dppx), screen and (-webkit-min-device-pixel-ratio: 3)
 {
-	.pause { background-image: url("../img/pause-24-3x.png?14"); }
-	.play { background-image: url("../img/play-24-3x.png?14"); }
+	.pause { background-image: url("../img/pause-24-3x.png?15"); }
+	.play { background-image: url("../img/play-24-3x.png?15"); }
 }
 
 @media screen and (min-resolution: 4dppx), screen and (-webkit-min-device-pixel-ratio: 4)
 {
-	.pause { background-image: url("../img/pause-24-4x.png?14"); }
-	.play { background-image: url("../img/play-24-4x.png?14"); }
+	.pause { background-image: url("../img/pause-24-4x.png?15"); }
+	.play { background-image: url("../img/play-24-4x.png?15"); }
 }
 
 /* Animations */
