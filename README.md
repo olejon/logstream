@@ -23,7 +23,7 @@ The server must serve a URL with JSON output in this format:
 <pre><code>{
 	"stream":
 	{
-		"time":"2014-01-01 12:00:00",
+		"time":"2016-01-01 12:00:00",
 		"first key":"first value",
 		"second key":"second value",
 		"third key":"third value"
