@@ -55,4 +55,4 @@ Example:
 
 <pre><code>https://www.olejon.net/code/logstream/app/?stream=https%3A%2F%2Fwww.olejon.net%2Fcode%2Flogstream%2Fstream%2F&interval=6</code></pre>
 
-This is the URL to the demo, so the demo gets its JSON data from `https://www.olejon.net/code/logstream/stream/`. 
+This is the URL to the demo, so the demo gets its JSON data from `https://www.olejon.net/code/logstream/stream/` (`callback` query parameter needed to see output). 
