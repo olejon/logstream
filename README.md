@@ -20,7 +20,8 @@ LogStream is very easy to set up.
 
 The server must serve a URL with JSON output in this format:
 
-<pre><code>{
+```
+{
 	"stream":
 	{
 		"time":"2016-01-01 12:00:00",
@@ -28,7 +29,8 @@ The server must serve a URL with JSON output in this format:
 		"second key":"second value",
 		"third key":"third value"
 	}
-}</code></pre>
+}
+```
 
 **Note:** You must serve the output as [JSONP](https://en.wikipedia.org/wiki/JSONP). [Click here](https://gist.github.com/olejon/637e329309edb8a1c8d4) here to view the server side PHP code used for the demo.
 
@@ -53,6 +55,8 @@ As you can see, you must provide two query parameters:
 
 Example:
 
-<pre><code>https://www.olejon.net/code/logstream/app/?stream=https%3A%2F%2Fwww.olejon.net%2Fcode%2Flogstream%2Fstream%2F&interval=6</code></pre>
+```
+https://www.olejon.net/code/logstream/app/?stream=https%3A%2F%2Fwww.olejon.net%2Fcode%2Flogstream%2Fstream%2F&interval=6
+```
 
 This is the URL to the demo, so the demo gets its JSON data from `https://www.olejon.net/code/logstream/stream/` (`callback` query parameter needed to see output). 
