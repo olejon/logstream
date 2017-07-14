@@ -19,7 +19,6 @@ LogStream is very easy to set up.
 #### On the server side
 
 The server must serve a URL with JSON output in this format:
-
 ```
 {
 	"stream":
@@ -45,8 +44,9 @@ If you want the fancy IP address information shown in the demo, all you have to 
 #### On the client side
 
 It is best to run LogStream directly from my server running the latest version. All you have to do is go to this URL:
-
-<pre><code>https://www.olejon.net/code/logstream/app/?stream={URL}&interval={integer}</code></pre>
+```
+https://www.olejon.net/code/logstream/app/?stream={URL}&interval={integer}
+```
 
 As you can see, you must provide two query parameters:
 
@@ -54,7 +54,6 @@ As you can see, you must provide two query parameters:
 2. `interval` How often to refresh, in seconds
 
 Example:
-
 ```
 https://www.olejon.net/code/logstream/app/?stream=https%3A%2F%2Fwww.olejon.net%2Fcode%2Flogstream%2Fstream%2F&interval=6
 ```
