@@ -48,7 +48,7 @@ It is best to run LogStream directly from my server running the latest version. 
 
 As you can see, you must provide two query parameters:
 
-1. `stream` URL encoded URL to the JSON output - *Do not include `callback` query parameter for JSONP*
+1. `stream` *URL encoded URL* to the JSON output
 2. `interval` How often to refresh, in seconds
 
 Example:
