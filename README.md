@@ -37,6 +37,8 @@ The only required key is `time`. You can use whatever format you like, but it sh
 
 ---
 
+#### Geolocation
+
 If you want the fancy IP address information shown in the demo, all you have to do is include a key called `ip` with a valid IP address as value.
 
 ---
