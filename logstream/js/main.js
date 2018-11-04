@@ -192,7 +192,7 @@ function getGeoIp(ip)
 
 		$('span#location').html(country_name);
 		$('span#continent').html(continent_name);
-		$('div#ip > div:last-child').css('background-image', 'url("http://www.geonames.org/flags/x/'+country_code+'.gif")');
+		$('div#ip > div:last-child').css('background-image', 'url("https://www.geonames.org/flags/x/'+country_code+'.gif")');
 
 		div.addClass('fadein');
 	});
