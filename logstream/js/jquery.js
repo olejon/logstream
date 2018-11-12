@@ -3,7 +3,7 @@
 jQuery 3.3.1
 Source: http://github.com/jquery/jquery
 
-Copyright 2017 JS Foundation and other contributors
+Copyright 2018 JS Foundation and other contributors
 License: http://opensource.org/licenses/MIT
 
 */
