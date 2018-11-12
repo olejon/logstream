@@ -3,7 +3,7 @@
 Modernizr 3.5.0
 Source: https://github.com/modernizr/modernizr
 
-Copyright 2017
+Copyright 2018
 License: http://opensource.org/licenses/MIT
 
 Build: https://modernizr.com/download/?-prefixed
