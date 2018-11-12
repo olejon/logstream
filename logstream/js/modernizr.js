@@ -1,5 +1,5 @@
 /*
-a
+
 Modernizr 3.5.0
 Source: https://github.com/modernizr/modernizr
 
