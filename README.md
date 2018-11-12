@@ -45,9 +45,9 @@ If you want the fancy IP address information shown in the demo, all you have to 
 
 #### On the client side
 
-It is best to run LogStream directly from my server running the latest version. All you have to do is go to this URL:
+It is easiest to run LogStream directly from my server to always run the latest version. All you have to do is go to this URL:
 ```
-https://www.olejon.net/code/logstream/app/?stream={URL}&interval={integer}
+https://www.olejon.net/code/logstream/app/?stream={YOURSTREAM}&interval={INTEGER}
 ```
 
 As you can see, you must provide two query parameters:
