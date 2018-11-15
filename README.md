@@ -25,7 +25,7 @@ The server must serve a URL with JSON output in this format:
 {
 	"stream":
 	{
-		"time":"2016-01-01 12:00:00",
+		"time":"2018-01-01 12:00:00",
 		"first key":"first value",
 		"second key":"second value",
 		"third key":"third value"
