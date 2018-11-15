@@ -4,7 +4,7 @@ A visually pleasing way to view log entries in "real time". It's not meant to be
 
 LogStream is inspired by Google's Material Design, and adapts to different screen sizes.
 
-Personally I use it fullscreen on a retired iPad to visualize logs that show the usage of my apps.
+Personally I use it fullscreen on a retired iPad to visualize logs that show the usage of some apps.
 
 ### Demo
 
@@ -41,7 +41,7 @@ The only required key is `time`. You can use whatever format you like, but it sh
 
 #### Geolocation
 
-If you want the fancy IP address information shown in the demo, all you have to do is include a key called `ip` with a valid IP address as value.
+If you want the IP address information shown in the demo, all you have to do is include a key called `ip` with a valid IP address as value.
 
 ---
 
