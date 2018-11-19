@@ -4,7 +4,7 @@ A visually pleasing way to view log entries in "real time". It's not meant to be
 
 LogStream is inspired by Google's Material Design, and adapts to different screen sizes.
 
-Personally I use it fullscreen on a retired iPad to visualize logs that show the usage of some apps.
+Personally I use it fullscreen on a retired iPad to visualize logs that show the usage of some apps..
 
 ### Demo
 
