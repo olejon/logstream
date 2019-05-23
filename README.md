@@ -55,7 +55,7 @@ https://www.olejon.net/code/logstream/app/?stream={URL}&interval={INTEGER}
 As you can see, you must provide two query parameters:
 
 1. `stream` URL encoded URL to your JSON output
-2. `interval` How often to refresh, in seconds
+2. `interval` How often to check for new data, in seconds
 
 Example:
 ```
