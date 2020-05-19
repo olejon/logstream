@@ -64,4 +64,10 @@ https://www.olejon.net/code/logstream/app/?stream=https%3A%2F%2Fwww.olejon.net%2
 
 This is the URL to the demo, so the demo gets its JSON data from `https://www.olejon.net/code/logstream/stream/?callback=JSONP`.
 
-**Note:** Nothing is logged.
+**NOTE:** Nothing is logged.
+
+---
+
+#### Full screen mode
+
+If LogStream is to the home screen, desktop or mobile, at least if using Chrome/Chromium or Safari, they will add a shortcut so LogStream is showed as if it was a native app.
