@@ -70,4 +70,4 @@ This is the URL to the demo, so the demo gets its JSON data from `https://www.ol
 
 #### Full screen mode
 
-If LogStream is to the home screen, desktop or mobile, at least if using Chrome/Chromium or Safari, they will add a shortcut so LogStream is showed as if it was a native app.
+If LogStream is added to the home screen, desktop or mobile, at least if using Chrome/Chromium or Safari, they will add a shortcut so LogStream is showed as if it was a native app.
