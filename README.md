@@ -43,7 +43,7 @@ The only required key is `time`. You can use whatever format you like, but it sh
 
 If you want the IP address information shown in the demo, all you have to do is include a key called `ip` with a valid IP address as value.
 
-**Note:** Current script on my server uses an API that only supports IPv4 addresses. [You can always change these JavaScript lines use another API](https://github.com/olejon/logstream/blob/703fd14ce8b8a0f137c42e1d1fb53988c4a01014/logstream/js/main.js#L187-L191).
+**Note:** Current script on my server uses an API that only supports IPv4 addresses. [You can always change these JavaScript lines to use another API than my simple one](https://github.com/olejon/logstream/blob/703fd14ce8b8a0f137c42e1d1fb53988c4a01014/logstream/js/main.js#L187-L191).
 
 ---
 
