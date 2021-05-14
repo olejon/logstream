@@ -43,6 +43,8 @@ The only required key is `time`. You can use whatever format you like, but it sh
 
 If you want the IP address information shown in the demo, all you have to do is include a key called `ip` with a valid IP address as value.
 
+**Note:** Current script on my server uses an API that only supports IPv4 addresses. You can always modify the JavaScript code to use another one.
+
 ---
 
 #### On the client side
