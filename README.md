@@ -10,9 +10,9 @@ Personally I use it fullscreen on a retired iPad to visualize logs that show the
 
 * [Click here to see a demo](https://www.olejon.net/code/logstream/?page=demo)
 
-The demo checks a JSON file for changes every 8 seconds (the interval can be configured). The data is only for the demo. In a real life scenario there won't be new data every that often. 
+The demo checks a JSON file for changes every 8 seconds (the interval can be configured). The data is only for the demo. In a real life scenario it's unlikely there'll be new data every 8 seconds. 
 
-*The animation is only shown when there's new data*.
+**Note:** So, logically the animation is only shown when there's new data.
 
 ### How to set up
 
