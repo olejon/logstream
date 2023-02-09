@@ -1,6 +1,6 @@
 ## LogStream
 
-A visually pleasing way to view log entries in "real time". It's not meant to be a way to look through logs, but to show new log entries in a nice way. It's not suitable for logs where new entries are added more often than about every five seconds.
+A visually pleasing way to view log entries in "real time". It's not meant to be a way to look through logs, but to show new log entries in a nice way. It's not suitable for logs where new entries are added more often than about every 5-10 seconds, depending on how JSON keys you serve.
 
 LogStream is inspired by Google's Material Design, and adapts to different screen sizes.
 
