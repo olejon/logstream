@@ -5,15 +5,15 @@ A visually pleasing way to view log entries in "real time". It's not meant to be
 LogStream is inspired by Google's Material Design, and adapts to different screen sizes.
 
 * Personally I use it fullscreen on a retired iPad to visualize logs from two web servers that serves some webapps and other content, showing the web server logs in the order and format I want
-* You can of course show logs from various log sources in one instance of LogStream, like both a Webapp and its API, since LogStream reads whatever it gets from a JSON file served as JSONP (see more below)
+* You can of course show logs from various log sources in one instance of LogStream, like both a Webapp and its API, since LogStream reads whatever it gets from server-generated JSON output, served as JSONP (see more below)
 
 ### Demo
 
 * [Click here to see a demo](https://www.olejon.net/code/logstream/app/?stream=https%3A%2F%2Fwww.olejon.net%2Fcode%2Flogstream%2Fstream%2F&interval=10)
 
-The demo checks a JSON file for changes every 10 seconds (the interval can be configured). The data is only for the demo. In a real life scenario it's unlikely there'll be new data every 10 seconds. 
+The demo checks server-generated JSON output, served as JSONP, for changes every 10 seconds (the interval can be configured). The data is only for the demo. In a real life scenario it's unlikely there'll be new data every 10 seconds.
 
-**Note:** So, logically the animation is only shown when there's new data.
+**PS:** The animation is of course only shown when there's new data. The demo always has new data per 10 seconds.
 
 ### How to set up
 
