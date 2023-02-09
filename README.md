@@ -8,7 +8,7 @@ Personally I use it fullscreen on a retired iPad to visualize logs that show the
 
 ### Demo
 
-* [Click here to see a demo](https://www.olejon.net/code/logstream/app/?stream=https%3A%2F%2Fwww.olejon.net%2Fcode%2Flogstream%2Fstream%2F&interval=8')
+* [Click here to see a demo](https://www.olejon.net/code/logstream/app/?stream=https%3A%2F%2Fwww.olejon.net%2Fcode%2Flogstream%2Fstream%2F&interval=8)
 
 The demo checks a JSON file for changes every 8 seconds (the interval can be configured). The data is only for the demo. In a real life scenario it's unlikely there'll be new data every 8 seconds. 
 
