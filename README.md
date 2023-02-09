@@ -34,7 +34,7 @@ The server must serve a URL with JSON output in this format:
 ```
 
 **Notes:**
-* You must serve the output as [JSONP](https://en.wikipedia.org/wiki/JSONP)
+* You must serve the output as [JSONP](https://www.w3schools.com/js/js_json_jsonp.asp)
 * [Click here](https://www.olejon.net/code/logstream/stream/code.txt) here to view the server side PHP code used for the demo
 
 The only required key is `time`. You can use whatever format you like, but it should at least include seconds. The time is compared to the previous time, and if it has changed, the new data is shown.
