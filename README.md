@@ -4,7 +4,8 @@ A visually pleasing way to view log entries in "real time". It's not meant to be
 
 LogStream is inspired by Google's Material Design, and adapts to different screen sizes.
 
-Personally I use it fullscreen on a retired iPad to visualize logs that show the usage of some apps.
+* Personally I use it fullscreen on a retired iPad to visualize logs that show the usage of some apps
+* You can of course show logs from various log sources in one instance of LogStream, like both a Webapp and its API, since LogStream reads whatever it gets from a JSON file served as JSONP (see more below)
 
 ### Demo
 
@@ -72,7 +73,7 @@ This is the URL to the demo, so the demo gets its JSON data from `https://www.ol
 
 #### Full screen mode
 
-If LogStream is added to the home screen, desktop or mobile, at least if using Chrome/Chromium or Safari, they will add a shortcut so LogStream is showed as if it was a native app.
+If LogStream is added to the home screen, both desktop or mobile, if using Chrome/Chromium or Safari (mobile only), they will add a shortcut so LogStream is showed as if it was a native app.
 
 ---
 
